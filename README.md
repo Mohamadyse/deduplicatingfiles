@@ -7,8 +7,8 @@ One way to reduce this cost is to convert each file to a short string (called a 
 
 For this problem, write a program which determines file duplicates using hashing (to identify potential duplicates and eliminate impossible ones). The hash function is simple, taking as input the entire file, and producing as output one byte. The output is the exclusive or (XOR) of the ASCII value of every byte in the input.
 
-# Input
+## Input
 Input consists of up to 250 test cases. Each test case begins with an integer 1≤n≤500 indicating the number of files. This is followed by n lines, each representing one file. Each line has 1 to 50 characters, using only the characters a–z, A–Z, space, and period (.). Input ends when n=0.
 
-# Output
+## Output
 For each test case, print the number of unique files and the number of hash collisions between all pairs of files.
